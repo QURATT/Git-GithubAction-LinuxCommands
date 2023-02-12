@@ -6,7 +6,7 @@
     git clone ssh://git@github.com/[username]/[repository-name].git
     
 ## Branching & Merging
-List branches (the asterisk denotes the current branch)
+###List branches (the asterisk denotes the current branch)
 	git branch
     
 List all branches (local and remote)    
