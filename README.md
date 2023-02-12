@@ -7,13 +7,13 @@
     
 ## Branching & Merging
 List branches (the asterisk denotes the current branch)
-    git branch
+	git branch
     
 List all branches (local and remote)    
-    git branch -a
+	git branch -a
 
 Create a new branch    
-    git branch [branch name]
+	git branch [branch name]
 
 	Delete a branch
     git branch -d [branch name]
