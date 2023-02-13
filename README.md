@@ -79,3 +79,18 @@ c. Remove directory: The rm command with -r option is used to remove the directo
 d. Remove directory forcefully: The rm command with -rf option is used to forcefully remove directory recursively.
 
 	rm -rf myDir
+	
+**5. cat:** The cat command is used to create single or multiple files, view contain of file, concatenate files and redirect output in terminal or files.
+
+	$ cat [OPTION] [FILE]...
+a. Create a file: Used to create a file with specific name, content and press exit using CTRL + D
+
+	cat > file_name1.txt
+	Hello, How are you?
+b. More & Less options: If a file having a large number of content that won’t fit in the output terminal then more & less options can be used to indiate additional content.
+
+	cat file_name1.txt | more
+	cat file_name1.txt | less
+c. View file contents: You can view contents of a single or more files by mentioning the filenames.
+
+	cat file_name1 file_name2
