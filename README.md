@@ -32,5 +32,6 @@ Merge a branch into a target branch
 	git merge [source branch] [target branch
 ##File and directory commands
 **1. pwd** The pwd(Present Working Directory) command is used to print the name of the present/current working directory starting from the root.
+	
 	$ pwd
 	/home/sj/Desktop/Linux
