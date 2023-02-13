@@ -37,3 +37,14 @@ Merge a branch into a target branch
 	
 	$ pwd
 	/home/sj/Desktop/Linux
+
+**2. mkdir** The mkdir(make directory) command allows users to create directories or folders.
+	
+	$ mkdir ubuntu
+	$ ls
+	ubuntu
+The option '-p' is used to create multiple directories or parent directories at once.
+
+	$ mkdir -p dir1/dir2/dir3
+	$ cd dir1/dir2/dir3
+	~/Desktop/Linux/dir1/dir2/dir3$
