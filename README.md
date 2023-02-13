@@ -33,12 +33,12 @@ Merge a branch into a target branch
 	
 ## File and directory commands
 
-**1. pwd** The pwd(Present Working Directory) command is used to print the name of the present/current working directory starting from the root.
+**1. pwd:** The pwd(Present Working Directory) command is used to print the name of the present/current working directory starting from the root.
 	
 	$ pwd
 	/home/sj/Desktop/Linux
 
-**2. mkdir** The mkdir(make directory) command allows users to create directories or folders.
+**2. mkdir:** The mkdir(make directory) command allows users to create directories or folders.
 	
 	$ mkdir ubuntu
 	$ ls
@@ -48,3 +48,18 @@ The option '-p' is used to create multiple directories or parent directories at 
 	$ mkdir -p dir1/dir2/dir3
 	$ cd dir1/dir2/dir3
 	~/Desktop/Linux/dir1/dir2/dir3$
+
+**3. rmdir:** The rmdir(remove directories) is used to remove empty directories. Can be used to delete multiple empty directories as well. Safer to use compared to rm -r FolderName. This command can also be forced to delete non-empty directories.
+  a. Remove empty directory:
+
+	rmdir FolderName
+  b. Remove entire directory tree. This command is similar to rmdir a/b/c a/b a:
+  
+	rmdir -p a/b/c
+  c. Remove multiple directories:
+
+	rmdir FolderName1 FolderName2 FolderName3
+
+  d. Remove non-empty directories:
+
+	rmdir FolderName1 --ignore-fail-on-non-empty
