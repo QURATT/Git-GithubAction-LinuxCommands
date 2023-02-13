@@ -64,3 +64,18 @@ The option '-p' is used to create multiple directories or parent directories at 
   d. Remove non-empty directories:
 
 	rmdir FolderName1 --ignore-fail-on-non-empty
+	
+**4. rm:** The rm(remove) command is used to remove objects such as files, directories, symbolic links etc from the file system.
+
+a. Remove file: The rm command is used to remove or delete a file
+
+	rm file_name	
+b. Remove file forcefully: The rm command with -f option is used for removal of file without prompting for confirmation.
+
+	rm -f filename
+c. Remove directory: The rm command with -r option is used to remove the directory and its contents recursively.
+	
+	rm -r myDir
+d. Remove directory forcefully: The rm command with -rf option is used to forcefully remove directory recursively.
+
+	rm -rf myDir
