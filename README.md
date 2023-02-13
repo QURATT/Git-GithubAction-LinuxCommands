@@ -50,16 +50,17 @@ The option '-p' is used to create multiple directories or parent directories at 
 	~/Desktop/Linux/dir1/dir2/dir3$
 
 **3. rmdir:** The rmdir(remove directories) is used to remove empty directories. Can be used to delete multiple empty directories as well. Safer to use compared to rm -r FolderName. This command can also be forced to delete non-empty directories.
-  a. Remove empty directory:
+
+ 	a. Remove empty directory:
 
 	rmdir FolderName
-  b. Remove entire directory tree. This command is similar to rmdir a/b/c a/b a:
+  	b. Remove entire directory tree. This command is similar to rmdir a/b/c a/b a:
   
 	rmdir -p a/b/c
-  c. Remove multiple directories:
+  	c. Remove multiple directories:
 
 	rmdir FolderName1 FolderName2 FolderName3
 
-  d. Remove non-empty directories:
+  	d. Remove non-empty directories:
 
 	rmdir FolderName1 --ignore-fail-on-non-empty
